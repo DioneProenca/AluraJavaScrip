@@ -14,4 +14,8 @@ const listaDeDestinos = new Array(
 listaDeDestinos.push(`Curitiba`) //adicionando um item na lista
 console.log("Destinos possíveis:");
 // console.log(salvador, saoPaulo, rioDeJaneiro);
-console.log(listaDeDestinos)
+console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1,1);
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1], listaDeDestinos[0]);
